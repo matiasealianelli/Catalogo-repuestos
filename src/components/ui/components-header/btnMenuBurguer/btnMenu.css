@@ -1,0 +1,11 @@
+.icon-menu{
+  display: none;
+  color: #000;
+  position: absolute;
+  right: 1rem;
+}
+@media (max-width: 768px){
+  .icon-menu {
+    display: flex;
+  }
+}

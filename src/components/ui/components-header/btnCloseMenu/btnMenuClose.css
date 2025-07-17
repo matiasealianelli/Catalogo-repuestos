@@ -1,0 +1,15 @@
+.icon-close {
+  display: none;
+  color: #000;
+  position: absolute;
+  right: 1rem;
+}
+@media (max-width: 768px){
+  .icon-close {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 1.1rem;
+  }
+}

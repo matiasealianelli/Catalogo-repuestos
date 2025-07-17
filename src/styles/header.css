@@ -1,0 +1,35 @@
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000000;
+}
+.conteinerColsNav {
+  width: 100%;
+  padding: 1.2rem 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.conteinerCol2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  
+  .visible {
+    display: flex;
+  }
+  .hidden {
+    display: none;
+  }
+}
+@media (min-width:768px) and (max-width: 860px){
+  .conteinerColsNav{
+    padding: 0.8rem 5%;
+  }
+}

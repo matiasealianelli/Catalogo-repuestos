@@ -1,0 +1,11 @@
+.linkNav{
+ text-decoration: none; 
+ color: #000;
+  transition: all 0.3s ease-in;
+  width: max-content;
+  height: min-content;
+}
+.linkNav:hover{
+  color: #383838;
+  transition: all 0.3s ease;
+}

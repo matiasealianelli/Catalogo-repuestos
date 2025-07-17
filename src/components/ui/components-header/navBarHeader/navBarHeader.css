@@ -1,0 +1,25 @@
+.nav-bar {
+  width: max-content;
+  height: min-content;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+@media (max-width: 860px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar.active {
+    height: 70vh;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: absolute;
+    right: 0;
+    top: 10.5rem;
+    padding: 3rem;
+    background-color: rgb(214, 214, 214);
+  }
+}

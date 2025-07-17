@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     element: < App />
   },
   {
-    path: '/catalogo',
+    path: '/repuestos',
     element: < Catalog />
   },
     {

@@ -1,21 +1,39 @@
 .conteinerBtnCart {
-  width: auto;
+  width: min-content;
   height: min-content;
+  display: flex;
 }
 .btnCart {
-  font-size: 1.4rem;
-  padding: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.7rem;
+  transform: scaleX(-1);
 }
 .btnCart:hover {
   color: #fff;
   cursor: pointer;
   background-color: rgb(0, 109, 171);
 }
-@media (min-width: 280px) and (max-width: 768px) {
+.numberAutopartsCart{
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  position:absolute;
+  top: auto;
+  border-radius: 50px;
+  background-color: rgb(0, 109, 171);
+  padding: 0rem 0.5rem;
+}
+@media (min-width: 280px) and (max-width: 860px) {
   .btnCart {
     display: block;
-    top: 0.3rem;
+    top: 1.3rem;
     right: 3.5rem;
+    position: absolute;
+  }
+  .numberAutopartsCart {
+    display: block;
+    top: 1.3rem;
+    right: 5rem;
     position: absolute;
   }
 }

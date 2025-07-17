@@ -5,6 +5,7 @@ export default function BtnCart() {
     <>
       <div className=" conteinerBtnCart">
         <i className="bi bi-cart btnCart"></i>
+        <p className='numberAutopartsCart'>0</p>
       </div>
     </>
   );

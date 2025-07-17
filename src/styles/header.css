@@ -6,7 +6,7 @@ header {
 }
 .conteinerColsNav {
   width: 100%;
-  padding: 1.2rem 10%;
+  padding: 0.5rem 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,7 +20,9 @@ header {
   justify-content: space-around;
 }
 @media (max-width: 768px) {
-  
+  .conteinerColsNav {
+    padding: 0.5rem 0;
+  }
   .visible {
     display: flex;
   }
@@ -28,8 +30,8 @@ header {
     display: none;
   }
 }
-@media (min-width:768px) and (max-width: 860px){
-  .conteinerColsNav{
-    padding: 0.8rem 5%;
+@media (min-width: 768px) and (max-width: 860px) {
+  .conteinerColsNav {
+    padding: 0.5rem 0;
   }
 }

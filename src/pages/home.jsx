@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import Hero from "../components/layout/hero";
 
 export default function Home() {
   return (
     <>
-      <h1>Hola soy el Home</h1>
-      <Link to={"/catalogo"}>Catalogo</Link>
+      <Hero />
+
     </>
   );
 }

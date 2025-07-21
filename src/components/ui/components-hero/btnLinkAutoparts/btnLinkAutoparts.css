@@ -1,0 +1,30 @@
+.btnLinkAutoparts{
+  width: fit-content;
+  height: min-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #081f5c;
+  font-size: 1.2rem;
+  background-color: #f9fcff;
+  border: 1px solid #f9fcff;
+  transition: all 0.3s ease-out;
+}
+.btnLinkAutoparts:hover{
+  background-color: #d0e3ff;
+  color: #092677;
+  border:1px solid #092677;
+  transition: all 0.3s ease-out;
+}
+/* @media (min-width: 280px) and (max-width: 500px) {
+  .btnLinkAutoparts{
+    background-color: #081f5c;
+    color: #fff;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+} */

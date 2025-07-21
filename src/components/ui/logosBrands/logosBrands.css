@@ -1,0 +1,24 @@
+.logoVw {
+  width: 6rem;
+  height: auto;
+}
+.logoFord,
+.logoChevrolet {
+  width: 12rem;
+  height: auto;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .logoVw {
+    width: 4rem;
+    height: auto;
+  }
+  .logoFord,
+  .logoChevrolet {
+    width: 8rem;
+    height: auto;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+}

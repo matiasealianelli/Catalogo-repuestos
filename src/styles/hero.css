@@ -1,0 +1,114 @@
+.swiper {
+  width: 100%;
+  height: 70vh;
+}
+.swiper-slide {
+  /* background-image: url("./assets/img/logoBlackMontford.png"); */
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide.slideHero1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  background: linear-gradient(269deg, #ffffff 0%, #f9fcff 25%, #081f5c 60%);
+}
+.conteinerInfoSlide {
+  height: fit-content;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 1rem;
+}
+.titleSlideHero {
+  font-size: 3.5rem;
+}
+.textSlideHero {
+  font-size: 1.2rem;
+  width: fit-content;
+}
+.conteinerLogosBrands {
+  height: fit-content;
+  width: fit-content;
+  /* width: max-content; */
+  display: flex;
+  gap: 2rem;
+}
+.swiper-slide.slideHero2 {
+  background-color: #081f5c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conteinerInfoRedesHero {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .swiper-slide.slideHero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+      background: linear-gradient(269deg, #ffffff 0%, #f9fcff 5%, #081f5c 60%);
+    gap: 2rem;
+  }
+  .conteinerInfoSlide {
+    width: 90%;
+    color: #fff;
+  }
+  .titleSlideHero {
+    font-size: 2.5rem;
+  }
+  .textSlideHero {
+    font-size: 1rem;
+  }
+  .conteinerLogosBrands {
+    gap: 1rem;
+  }
+  .conteinerInfoRedesHero{
+  width: 80%;
+}
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .swiper-slide.slideHero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    gap: 2rem;
+      background: linear-gradient(269deg, #ffffff 0%, #f9fcff 5%, #081f5c 60%);
+  }
+  .conteinerInfoSlide {
+    width: 80%;
+  }
+  .titleSlideHero {
+    font-size: 3rem;
+  }
+  .textSlideHero {
+    font-size: 1rem;
+  }
+  .conteinerLogosBrands {
+    gap: 1rem;
+  }
+.conteinerInfoRedesHero{
+  width: 80%;
+}
+  /* .swiper-slide.slideHero1 {
+    gap: 5rem;
+  }
+  .conteinerLogosBrands {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+}
+/* @media (min-width: 768px) and (max-width: 1024px) {
+} */

@@ -1,0 +1,16 @@
+.navBarFooter {
+  display: flex;
+  gap: 3rem;
+}
+
+@media (max-width: 550px) {
+  .navBarFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .linkNavFooter {
+    height: auto;
+    width: fit-content;
+  }
+}

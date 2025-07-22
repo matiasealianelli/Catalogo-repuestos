@@ -4,7 +4,7 @@
   position: absolute;
   right: 1rem;
 }
-@media (max-width: 768px){
+@media (max-width: 860px){
   .icon-close {
     display: flex;
     width: 1.5rem;

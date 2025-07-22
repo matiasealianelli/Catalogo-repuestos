@@ -11,15 +11,17 @@
     display: none;
   }
   .nav-bar.active {
+    width: 15rem;
     height: 70vh;
-    font-size: 1.2rem;
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    align-items: start;
+    gap: 1rem;
     position: absolute;
     right: 0;
     top: 10.5rem;
-    padding: 3rem;
-    background-color: rgb(214, 214, 214);
+    padding: 1rem 2rem 0 1rem;
+    background-color: #e7f1ff;
+    z-index: 2;
   }
 }

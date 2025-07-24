@@ -13,7 +13,7 @@ export default function NavBarHeader({ className }) {
         />
         <LinkNav
           className={"linkNav"}
-          hrefLink={"#"}
+          hrefLink={"/about"}
           valueLink={"Sobre nosotros"}
         />
         <LinkNav

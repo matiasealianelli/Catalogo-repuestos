@@ -11,7 +11,7 @@ export default function NavBarFooter() {
         />
         <LinkNav
           className={"linkNav linkNavFooter"}
-          hrefLink={"#"}
+          hrefLink={"/about"}
           valueLink={"Sobre nosotros"}
         />
         <LinkNav

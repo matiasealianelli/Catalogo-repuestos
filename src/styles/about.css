@@ -1,0 +1,35 @@
+.about {
+  width: 100%;
+  min-width: 50vh;
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.conteinerTextsAbout{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.titleAbout {
+  width: fit-content;
+  display: flex;
+}
+.textAbout {
+  width: 100%;
+  height: auto;
+  
+  line-height: 1lh;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .conteinerTextsAbout{
+    width: 90%;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .conteinerTextsAbout{
+    width: 90%;
+  }
+}

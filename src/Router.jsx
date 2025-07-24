@@ -3,6 +3,7 @@ import App from "./App";
 import Catalog from "./pages/catalog/catalog";
 import Autopart from "./pages/product/autopart";
 import About from "./components/layout/about";
+import Questions from "./components/layout/questions";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +21,9 @@ export const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/preguntasfrecuentes",
+    element: <Questions />,
   },
 ]);

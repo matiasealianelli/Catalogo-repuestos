@@ -18,7 +18,7 @@ export default function NavBarHeader({ className }) {
         />
         <LinkNav
           className={"linkNav"}
-          hrefLink={"#"}
+          hrefLink={"/preguntasfrecuentes"}
           valueLink={"Preguntas frecuentes"}
         />
         <LinkNav className={"linkNav"} hrefLink={"#"} valueLink={"Contacto"} />

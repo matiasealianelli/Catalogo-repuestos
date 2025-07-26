@@ -4,6 +4,7 @@ import Catalog from "./pages/catalog/catalog";
 import Autopart from "./pages/product/autopart";
 import About from "./components/layout/about";
 import Questions from "./components/layout/questions";
+import Contact from "./components/layout/contact";
 
 export const router = createBrowserRouter([
   {
@@ -25,5 +26,9 @@ export const router = createBrowserRouter([
   {
     path: "/preguntasfrecuentes",
     element: <Questions />,
+  },
+  {
+    path: "/contacto",
+    element: <Contact />,
   },
 ]);

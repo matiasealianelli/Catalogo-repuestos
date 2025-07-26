@@ -1,0 +1,11 @@
+.conteinerForm{
+  width: 100%;
+  background-color: #d0e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteinerFormContact{
+  width: 100%;
+  padding: 1rem 2rem;
+}

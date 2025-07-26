@@ -19,7 +19,11 @@ export default function NavBarFooter() {
           hrefLink={"/preguntasfrecuentes"}
           valueLink={"Preguntas frecuentes"}
         />
-        <LinkNav className={"linkNav linkNavFooter"} hrefLink={"#"} valueLink={"Contacto"} />
+        <LinkNav
+          className={"linkNav linkNavFooter"}
+          hrefLink={"/contacto"}
+          valueLink={"Contacto"}
+        />
       </div>
     </>
   );

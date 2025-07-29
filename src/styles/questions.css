@@ -1,7 +1,5 @@
 .questions {
-  display: flex;
   width: 100%;
-  min-width: 50vh;
   padding: 2.5rem 0;
   display: flex;
   flex-direction: column;
@@ -10,27 +8,17 @@
   gap: 1.5rem;
 }
 .conteinerQuestions {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-}
-.subtitleQuestion{
-  font-size: 1.5rem;
 }
 @media (min-width: 280px) and (max-width: 500px) {
-  .conteinerQuestions{
+  .conteinerQuestions {
     width: 90%;
   }
-  .subtitleQuestion{
-  font-size: 1.1rem;
-}
 }
 @media (min-width: 500px) and (max-width: 900px) {
-  .conteinerQuestions{
+  .conteinerQuestions {
     width: 90%;
   }
-    .subtitleQuestion{
-  font-size: 1.1rem;
-}
 }

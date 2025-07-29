@@ -1,0 +1,19 @@
+.icon-ask {
+  color: rgb(0, 0, 0);
+}
+.subtitleQuestion {
+  font-size: 1.5rem;
+  background-color: #f8f9fa;
+  display: flex;
+  gap: 0.5rem;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .subtitleQuestion {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .subtitleQuestion {
+    font-size: 1.1rem;
+  }
+}

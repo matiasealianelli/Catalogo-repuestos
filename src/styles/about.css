@@ -1,6 +1,5 @@
 .about {
   width: 100%;
-  min-width: 50vh;
   padding: 2.5rem 0;
   display: flex;
   flex-direction: column;
@@ -8,8 +7,8 @@
   justify-content: center;
   gap: 1.5rem;
 }
-.conteinerTextsAbout{
-  width: 70%;
+.conteinerTextsAbout {
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -20,16 +19,16 @@
 .textAbout {
   width: 100%;
   height: auto;
-  
+
   line-height: 1lh;
 }
 @media (min-width: 280px) and (max-width: 500px) {
-  .conteinerTextsAbout{
+  .conteinerTextsAbout {
     width: 90%;
   }
 }
 @media (min-width: 500px) and (max-width: 900px) {
-  .conteinerTextsAbout{
+  .conteinerTextsAbout {
     width: 90%;
   }
 }

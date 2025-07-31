@@ -8,9 +8,14 @@
   gap: 1.5rem;
 }
 .conteinerQuestions {
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
+}
+.layoutQuestions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 @media (min-width: 280px) and (max-width: 500px) {
   .conteinerQuestions {

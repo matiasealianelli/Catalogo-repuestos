@@ -1,0 +1,16 @@
+.cardAutopart {
+  width: 20rem;
+  height: 25rem;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  color: #000;
+}
+.imageCardAutopart {
+  width: 100%;
+}
+.titleCardAutopart {
+  font-size: 1.5rem;
+}

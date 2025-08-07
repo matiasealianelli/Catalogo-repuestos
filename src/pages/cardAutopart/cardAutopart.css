@@ -7,6 +7,15 @@
   justify-content: space-between;
   background-color: #f8f9fa;
   color: #000;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  &:hover {
+    background-color: #ebebeb;
+    /* box-shadow: 0 0 5px  #000; */
+    transition: all 0.3s ease;
+    scale: 1.01;
+  }
 }
 .imageCardAutopart {
   width: 100%;

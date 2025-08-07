@@ -1,4 +1,5 @@
 import "./cardAutopart.css";
+import { Link } from "react-router-dom";
 
 export default function CardAutopart({
   repuesto,
@@ -22,9 +23,9 @@ export default function CardAutopart({
           {años_compatibles}
         </h3>
         <p className="stockCardAutopart"> Stock disponible: {stock} </p>
-        <a href="#" className="btn btn-secondary btnCardAutopart">
-          Consultar al vendedor
-        </a>
+        <Link to={"/"} className="btn btn-secondary btnCardAutopart">
+          Ver mas información
+        </Link>
       </div>
     </>
   );

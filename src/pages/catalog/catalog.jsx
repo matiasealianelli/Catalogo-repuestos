@@ -40,8 +40,8 @@ export default function Catalog() {
                 repuesto={part.REPUESTO}
                 lado_pieza={part.LADO_PIEZA}
                 stock={part.STOCK}
-                marca={part.MARCA_VEHICULO}
-                vehiculo={part.MODELO_VEHICULO}
+                marca_vehiculo={part.MARCA_VEHICULO}
+                modelo_vehiculo={part.MODELO_VEHICULO}
                 años_compatibles={part.AÑOS_COMPATIBLE}
                 image={part.IMAGE}
               />

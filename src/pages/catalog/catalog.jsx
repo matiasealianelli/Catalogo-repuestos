@@ -44,6 +44,7 @@ export default function Catalog() {
                 modelo_vehiculo={part.MODELO_VEHICULO}
                 años_compatibles={part.AÑOS_COMPATIBLE}
                 image={part.IMAGE}
+                precio_repuesto={part.PRICE}
               />
             ))}
           </div>

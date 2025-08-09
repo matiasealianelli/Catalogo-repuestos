@@ -9,10 +9,11 @@ export default function CardAutopart({
   modelo_vehiculo,
   image,
   años_compatibles,
+  precio_repuesto
 }) {
   return (
     <>
-      <div className="cardAutopart">
+      <Link to={"/"} title="Ver detalles del repuesto" className="cardAutopart">
         <img
           className="imageCardAutopart"
           src={image}
@@ -22,11 +23,15 @@ export default function CardAutopart({
           {repuesto} {marca_vehiculo} {modelo_vehiculo} {lado_pieza}{" "}
           {años_compatibles}
         </h3>
+        <p className="priceCardAutopart">${ precio_repuesto }</p>
         <p className="stockCardAutopart"> Stock disponible: {stock} </p>
-        <Link to={"/"} className="btn btn-secondary btnCardAutopart">
-          Ver mas información
+        <Link
+          to={"/about"}
+          title="Agregar producto al carrito"
+          className="btn btn-secondary btnCardAutopart">
+          Agregar al carrito
         </Link>
-      </div>
+      </Link>
     </>
   );
 }

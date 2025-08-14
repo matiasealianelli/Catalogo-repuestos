@@ -1,0 +1,23 @@
+.autopartImageDetail {
+  width: 40rem;
+  height: auto;
+}
+.conteinerFeaturesAutoparts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contentFeatureAutopart {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.featureAutopart {
+  width: fit-content;
+  height: min-content;
+  margin: 0;
+  padding: 0;
+}

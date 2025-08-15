@@ -36,7 +36,7 @@ export default function Catalog() {
           <div className="conteinerCardsAutoparts">
             {dataAutoparts.map((part) => (
               <CardAutopart
-                key={part.ID}
+                SKU={part.SKU}
                 repuesto={part.REPUESTO}
                 lado_pieza={part.LADO_PIEZA}
                 stock={part.STOCK}

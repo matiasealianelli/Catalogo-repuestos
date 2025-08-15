@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Catalog from "./pages/catalog/catalog";
-import Autopart from "./pages/product/autopart";
+import AutopartDetail from "./pages/autopartDetail/autopartDetail.jsx";
 import About from "./components/layout/about";
 import Questions from "./components/layout/questions";
 import Contact from "./components/layout/contact";
@@ -16,8 +16,8 @@ export const router = createBrowserRouter([
     element: <Catalog />,
   },
   {
-    path: "/autoparte",
-    element: <Autopart />,
+    path: "/repuestos/:SKU",
+    element: <AutopartDetail />,
   },
   {
     path: "/about",

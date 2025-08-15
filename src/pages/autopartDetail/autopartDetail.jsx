@@ -1,7 +1,8 @@
-import { useParams } from "react-router-dom";
+import "./autopartDetail.css";
+import { Link, useParams } from "react-router-dom";
 import autopartsData from "../../../public/data/autoparts-data/autoparts.json";
 import Layout from "../../components/layout/layout";
-import "./autopartDetail.css";
+import ContentFeatureAutopart from "../../components/ui/components-autoparts/autopartsDetail/contentFeatureAutopart";
 
 export default function AutopartDetail() {
   const { SKU } = useParams();
@@ -13,9 +14,7 @@ export default function AutopartDetail() {
     <>
       <Layout>
         <section className="autopartDetail" id="autopartDetail">
-          <h1>Detalle del repuesto:</h1>
           <div className="conteinerDetailAutopart">
-           
             <div>
               <img
                 className="autopartImageDetail"
@@ -24,38 +23,15 @@ export default function AutopartDetail() {
               />
             </div>
             <div className="conteinerFeaturesAutoparts">
-              <div className="contentFeatureAutopart">
-                <h6 className="featureAutopart">SKU:</h6>{" "}
-                <p className="featureAutopart">{part.SKU}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                <h6 className="featureAutopart">Nombre:</h6>{" "}
-                <p className="featureAutopart">{part.REPUESTO}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                {" "}
-                <h6 className="featureAutopart">Lado de la pieza:</h6>{" "}
-                <p className="featureAutopart">{part.LADO_PIEZA}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                {" "}
-                <h6 className="featureAutopart">Stock:</h6>{" "}
-                <p className="featureAutopart">{part.STOCK}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                {" "}
-                <h6 className="featureAutopart">Marca vehículo:</h6>{" "}
-                <p className="featureAutopart">{part.MARCA_VEHICULO}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                {" "}
-                <h6 className="featureAutopart">Modelo vehículo:</h6>{" "}
-                <p className="featureAutopart">{part.MODELO_VEHICULO}</p>
-              </div>
-              <div className="contentFeatureAutopart">
-                <h6 className="featureAutopart">Años compatibles:</h6>{" "}
-                <p className="featureAutopart">{part.AÑOS_COMPATIBLE}</p>
-              </div>
+              <h1 className="titleDetailAutopart"> {part.REPUESTO} {part.LADO_PIEZA} {part.MARCA_REPUESTO} {part.CARACTERISTICAS_EXTRA} {part.MARCA_VEHICULO} {part.MODELO_VEHICULO} {part.AÑOS_COMPATIBLE} </h1>
+              <ContentFeatureAutopart property={"SKU"} value={part.SKU} />
+              <ContentFeatureAutopart property={"Marca repuesto"} value={part.MARCA_REPUESTO} />
+              <ContentFeatureAutopart property={"Repuesto"} value={part.REPUESTO} />
+              <ContentFeatureAutopart property={"Stock disponible"} value={part.STOCK} />
+              <ContentFeatureAutopart property={"Lado pieza"} value={part.LADO_PIEZA} />
+              <ContentFeatureAutopart property={"Vehiculo"} value={part.MARCA_VEHICULO} />
+              <ContentFeatureAutopart property={"Modelo vehiculo"} value={part.MODELO_VEHICULO} />
+              <ContentFeatureAutopart property={"Años compatible"} value={part.AÑOS_COMPATIBLE} />
             </div>
           </div>
         </section>

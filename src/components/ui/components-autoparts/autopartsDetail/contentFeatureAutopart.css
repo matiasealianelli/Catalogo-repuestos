@@ -1,0 +1,13 @@
+.contentFeatureAutopart {
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.featureAutopart {
+  width: fit-content;
+  height: min-content;
+  margin: 0;
+  padding: 0;
+}

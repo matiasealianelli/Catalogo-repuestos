@@ -1,4 +1,14 @@
-.conteinerDetailAutopart{
+.autopartDetail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.btnBackAutoparts {
+  width: fit-content;
+  margin-left: 10rem;
+}
+.conteinerDetailAutopart {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -15,6 +25,52 @@
   flex-direction: column;
   gap: 0.5rem;
 }
-.titleDetailAutopart{
-  width: 40rem;
+.titleDetailAutopart {
+  width: 30rem;
+  font-size: 2rem;
+}
+.conteinerBoxFeaturesBoxBuy {
+  width: max-content;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.conteinerBuy {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.priceAutopart {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+@media (min-width: 280px) and (max-width: 500px) {
+  .conteinerDetailAutopart {
+    flex-direction: column;
+    width: 90%;
+  }
+  .autopartImageDetail {
+    width: 100%;
+  }
+}
+@media (min-width: 500px) and (max-width: 680px) {
+  .conteinerDetailAutopart {
+    flex-direction: column;
+    width: 90%;
+  }
+  .autopartImageDetail {
+    width: 100%;
+  }
+}
+@media (min-width: 680px) and (max-width: 800px) {
+  .conteinerDetailAutopart {
+    flex-direction: column;
+    width: 90%;
+  }
+  .autopartImageDetail {
+    width: 100%;
+  }
 }

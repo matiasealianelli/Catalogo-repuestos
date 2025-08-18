@@ -44,7 +44,7 @@ export default function Header() {
           </div>
           <BtnCart className={!menuActivo ? "btnCart active" : "btnCart"} />
         </div>
-        <div className="py-3 border-bottom">
+        {/* <div className="py-3 border-bottom">
           <div className="container d-flex flex-wrap justify-content-center">
             <form
               className="d-flex col-12 col-lg-5 mb-lg-0 gap-4"
@@ -53,7 +53,7 @@ export default function Header() {
               <BtnSearch />
             </form>
           </div>
-        </div>
+        </div> */}
       </header>
     </>
   );

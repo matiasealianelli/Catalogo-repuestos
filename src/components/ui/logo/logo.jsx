@@ -8,7 +8,7 @@ export default function Logo() {
         <Link to="/">
           <img
             className="logo"
-            src="./assets/img/logoBlackMontford.png"
+            src="/assets/img/logoBlackMontford.png"
             alt="Logo de la tienda"
           />
         </Link>

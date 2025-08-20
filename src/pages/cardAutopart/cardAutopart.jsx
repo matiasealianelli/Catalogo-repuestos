@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 export default function CardAutopart({
   repuesto,
-  lado_pieza,
+  lado_repuesto,
   stock,
   marca_vehiculo,
   modelo_vehiculo,
   image,
   años_compatibles,
   precio_repuesto,
-  SKU,
+  ID
 }) {
   return (
     <>
       <Link
-        to={`/repuestos/${SKU}`}
-        key={SKU}
+        to={`/repuestos/${ID}`}
+        key={ID}
         title="Ver detalles del repuesto"
         className="cardAutopart">
         <img
@@ -25,7 +25,7 @@ export default function CardAutopart({
           alt={`Imagen de repuesto: ${repuesto} de vehiculo ${marca_vehiculo} ${modelo_vehiculo} `}
         />
         <h3 className="titleCardAutopart">
-          {repuesto} {marca_vehiculo} {modelo_vehiculo} {lado_pieza}{" "}
+          {repuesto} {marca_vehiculo} {modelo_vehiculo} {lado_repuesto}{" "}
           {años_compatibles}
         </h3>
         <p className="priceCardAutopart">${precio_repuesto}</p>

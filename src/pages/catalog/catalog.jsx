@@ -1,6 +1,6 @@
 import "./catalog.css";
 import Layout from "../../components/layout/layout";
-import Autoparts from "../../../public/data/autoparts-data/autoparts.json";
+import Autoparts from "../../../data/autoparts.json";
 import CardAutopart from "../cardAutopart/cardAutopart.jsx";
 import { useEffect, useState } from "react";
 
@@ -34,17 +34,17 @@ export default function Catalog() {
         <section id="catalog" className="catalog pt-5">
           <h2 className="titleCatalog pb-5">Catalogo</h2>
           <div className="conteinerCardsAutoparts">
-            {dataAutoparts.map((part) => (
+            {dataAutoparts.map((autopart) => (
               <CardAutopart
-                SKU={part.SKU}
-                repuesto={part.REPUESTO}
-                lado_pieza={part.LADO_PIEZA}
-                stock={part.STOCK}
-                marca_vehiculo={part.MARCA_VEHICULO}
-                modelo_vehiculo={part.MODELO_VEHICULO}
-                años_compatibles={part.AÑOS_COMPATIBLE}
-                image={part.IMAGE}
-                precio_repuesto={part.PRICE}
+                ID={autopart.ID}
+                repuesto={autopart.REPUESTO}
+                lado_repuesto={autopart.LADO_REPUESTO}
+                stock={autopart.STOCK}
+                marca_vehiculo={autopart.MARCA_VEHICULO}
+                modelo_vehiculo={autopart.MODELO_VEHICULO}
+                años_compatibles={autopart.AÑOS_COMPATIBLE}
+                image={autopart.CARD_IMAGE}
+                precio_repuesto={autopart.PRICE}
               />
             ))}
           </div>

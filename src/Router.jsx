@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
     element: <Catalog />,
   },
   {
-    path: "/repuestos/:SKU",
+    path: "/repuestos/:ID",
     element: <AutopartDetail />,
   },
   {

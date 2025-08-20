@@ -1,0 +1,705 @@
+[
+  {
+    "ID": "opt-001",
+    "SKU": "6111-D",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "corsa",
+    "AÑOS_COMPATIBLE": "1993/2000",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-001/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-001/1.webp",
+      "/assets/img/autopartsImages/opt-001/2.webp",
+      "/assets/img/autopartsImages/opt-001/3.webp"
+    ]
+  },
+  {
+    "ID": "opt-002",
+    "SKU": "6400-I",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "escort",
+    "AÑOS_COMPATIBLE": "1989/1995",
+    "CARACTERISTICAS_EXTRA": "Control manual",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-002/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-002/1.webp",
+      "/assets/img/autopartsImages/opt-002/2.webp",
+      "/assets/img/autopartsImages/opt-002/3.webp"
+    ]
+  },
+  {
+    "ID": "opt-003",
+    "SKU": "12521-20",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "derecho",
+    "MARCA_REPUESTO": "vic",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol, saveiro, senda",
+    "AÑOS_COMPATIBLE": "1991/1995",
+    "CARACTERISTICAS_EXTRA": "con reten",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-003/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-003/1.webp",
+      "/assets/img/autopartsImages/opt-003/2.webp"
+    ]
+  },
+  {
+    "ID": "opt-004",
+    "SKU": "6405(523)",
+    "REPUESTO": "Optica",
+    "MARCA_REPUESTO": "vic",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "falcon std, ranchero",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "opt-005",
+    "SKU": "6KE-941-009-B",
+    "REPUESTO": "Optica",
+    "MARCA_REPUESTO": "original",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "opt-006",
+    "SKU": "730-1I",
+    "REPUESTO": "Faro auxiliar",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ranger",
+    "AÑOS_COMPATIBLE": "1998/2001",
+    "CARACTERISTICAS_EXTRA": "con giro",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-006/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-006/1.webp",
+      "/assets/img/autopartsImages/opt-006/2.webp",
+      "/assets/img/autopartsImages/opt-006/3.webp"
+    ]
+  },
+  {
+    "ID": "opt-007",
+    "SKU": "7S55-13005-AH",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "original",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ka MK2",
+    "AÑOS_COMPATIBLE": "2008/2011",
+    "CARACTERISTICAS_EXTRA": "fondo fume",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-007/main.jpg",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-007/1.jpg",
+      "/assets/img/autopartsImages/opt-007/2.jpg",
+      "/assets/img/autopartsImages/opt-007/3.jpg"
+    ]
+  },
+  {
+    "ID": "opt-008",
+    "SKU": "D3BB-13W030-AB",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "original",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "fiesta MK7",
+    "AÑOS_COMPATIBLE": "2013/2019",
+    "CARACTERISTICAS_EXTRA": "fondo fume",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-008/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-008/1.webp",
+      "/assets/img/autopartsImages/opt-008/2.webp",
+      "/assets/img/autopartsImages/opt-008/3.webp",
+      "/assets/img/autopartsImages/opt-008/4.webp"
+    ]
+  },
+  {
+    "ID": "opt-009",
+    "SKU": "6823-5D",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "derecha",
+    "MARCA_REPUESTO": "arteb",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Suzuki",
+    "MODELO_VEHICULO": "fun F2",
+    "AÑOS_COMPATIBLE": "2006/2012",
+    "CARACTERISTICAS_EXTRA": "fondo cromado oscuro",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-009/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-009/1.webp",
+      "/assets/img/autopartsImages/opt-009/2.webp",
+      "/assets/img/autopartsImages/opt-009/3.webp"
+    ]
+  },
+  {
+    "ID": "opt-010",
+    "SKU": "6134-I",
+    "REPUESTO": "Optica",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "arteb",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "corsa II(2)",
+    "AÑOS_COMPATIBLE": "2002/2011",
+    "CARACTERISTICAS_EXTRA": "comando manual fondo cromado",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/opt-010/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/opt-010/1.webp",
+      "/assets/img/autopartsImages/opt-010/2.webp",
+      "/assets/img/autopartsImages/opt-010/3.webp",
+      "/assets/img/autopartsImages/opt-010/4.webp"
+    ]
+  },
+  {
+    "ID": "faraux-001",
+    "SKU": "6400-I(702-I)",
+    "REPUESTO": "Faro auxiliar",
+    "LADO_REPUESTO": "derecho, izquierdo",
+    "MARCA_REPUESTO": "tyc/vic",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "focus",
+    "AÑOS_COMPATIBLE": "2008/2013",
+    "CARACTERISTICAS_EXTRA": "Control manual",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "faraux-002",
+    "SKU": "99000-9904Z-010",
+    "REPUESTO": "Faro auxiliar",
+    "LADO_REPUESTO": "derecho",
+    "MARCA_REPUESTO": "valeo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Suzuki",
+    "MODELO_VEHICULO": "vitara",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "faraux-003",
+    "SKU": "730-1I",
+    "REPUESTO": "Faro / Optica",
+    "LADO_REPUESTO": "izquierdo",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ranger",
+    "AÑOS_COMPATIBLE": "1998/2001",
+    "CARACTERISTICAS_EXTRA": "con giro",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-001",
+    "SKU": "11508-10D (93377507)",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "astra",
+    "AÑOS_COMPATIBLE": "2003/>",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-001/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-001/1.webp",
+      "/assets/img/autopartsImages/far-001/2.webp",
+      "/assets/img/autopartsImages/far-001/3.webp"
+    ]
+  },
+  {
+    "ID": "far-002",
+    "SKU": "666-5D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "corsa",
+    "AÑOS_COMPATIBLE": "1999-2010",
+    "CARACTERISTICAS_EXTRA": "4 ptas",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-003",
+    "SKU": "4393-2D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "bora",
+    "AÑOS_COMPATIBLE": "1999-2007",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-003/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-003/1.webp",
+      "/assets/img/autopartsImages/far-003/2.webp",
+      "/assets/img/autopartsImages/far-003/3.webp"
+    ]
+  },
+  {
+    "ID": "far-004",
+    "SKU": "379-945-111-A (4365-80I)",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "valeo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol country",
+    "AÑOS_COMPATIBLE": "2000/2005",
+    "CARACTERISTICAS_EXTRA": "base roja",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-005",
+    "SKU": "12316-5D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol country",
+    "AÑOS_COMPATIBLE": "2006/2013",
+    "CARACTERISTICAS_EXTRA": "base roja",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-005/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-005/1.webp",
+      "/assets/img/autopartsImages/far-005/2.webp"
+    ]
+  },
+  {
+    "ID": "far-006",
+    "SKU": "12349-1I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "vento",
+    "CARACTERISTICAS_EXTRA": "interior",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-007",
+    "SKU": "36040-D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "corsa",
+    "AÑOS_COMPATIBLE": "1999/>",
+    "CARACTERISTICAS_EXTRA": "4 ptas",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-008",
+    "SKU": "4041-I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "arteb",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "AÑOS_COMPATIBLE": "1995/1999",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-009",
+    "SKU": "12368-5D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "valeo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "suran",
+    "AÑOS_COMPATIBLE": "2010/2014",
+    "CARACTERISTICAS_EXTRA": "exterior",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-009/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-009/1.webp",
+      "/assets/img/autopartsImages/far-009/2.png"
+    ]
+  },
+  {
+    "ID": "far-010",
+    "SKU": "12341-10D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol trend",
+    "AÑOS_COMPATIBLE": "2008/2012",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-010/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-010/1.webp",
+      "/assets/img/autopartsImages/far-010/2.webp",
+      "/assets/img/autopartsImages/far-010/3.webp"
+    ]
+  },
+  {
+    "ID": "far-011",
+    "SKU": "4394-10D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "Arteb",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "AÑOS_COMPATIBLE": "2006/2013",
+    "CARACTERISTICAS_EXTRA": "base negra fume",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-011/main.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-011/1.png",
+      "/assets/img/autopartsImages/far-011/2.png",
+      "/assets/img/autopartsImages/far-011/3.png",
+      "/assets/img/autopartsImages/far-011/4.png"
+    ]
+  },
+  {
+    "ID": "far-012",
+    "SKU": "5Z9945094J",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "valeo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "suran",
+    "AÑOS_COMPATIBLE": "2010/>",
+    "CARACTERISTICAS_EXTRA": "interior",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-012/main.webp",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-012/1.webp",
+      "/assets/img/autopartsImages/far-012/2.webp",
+      "/assets/img/autopartsImages/far-012/3.webp"
+    ]
+  },
+  {
+    "ID": "far-013",
+    "SKU": "787-2I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "cofran",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "escort",
+    "AÑOS_COMPATIBLE": "1989/1995",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-014",
+    "SKU": "4364-CI",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "AÑOS_COMPATIBLE": "1999/2005",
+    "CARACTERISTICAS_EXTRA": "base negra cristal",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-015",
+    "SKU": "4384-D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "arteb",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol country",
+    "AÑOS_COMPATIBLE": "2003/2005",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-016",
+    "SKU": "CN15-13A602-CB",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "Original",
+    "STOCK": 1,
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-017",
+    "SKU": "12368-6I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "suran",
+    "AÑOS_COMPATIBLE": "2010/2014",
+    "CARACTERISTICAS_EXTRA": "exterior",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/far-017/main.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/far-017/1.png",
+      "/assets/img/autopartsImages/far-017/2.png",
+      "/assets/img/autopartsImages/far-017/3.png"
+    ]
+  },
+  {
+    "ID": "far-018",
+    "SKU": "4364-D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "zong long",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "AÑOS_COMPATIBLE": "1999/2005",
+    "CARACTERISTICAS_EXTRA": "base roja",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-019",
+    "SKU": "12346-80I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "zong long",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "voyage",
+    "AÑOS_COMPATIBLE": "2009/2012",
+    "CARACTERISTICAS_EXTRA": "fume",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-020",
+    "SKU": "4285-I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "transit, courier",
+    "AÑOS_COMPATIBLE": "1996/2000",
+    "CARACTERISTICAS_EXTRA": "acrilico",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-021",
+    "SKU": "4364-I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "cofran",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "gol",
+    "AÑOS_COMPATIBLE": "1999/2005",
+    "CARACTERISTICAS_EXTRA": "base roja",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-022",
+    "SKU": "666-25I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Chevrolet",
+    "MODELO_VEHICULO": "corsa",
+    "AÑOS_COMPATIBLE": "1999/2010",
+    "CARACTERISTICAS_EXTRA": "4ptas",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-023",
+    "SKU": "CN15-13405-AB",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "original",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ecosport",
+    "AÑOS_COMPATIBLE": "2018/>",
+    "CARACTERISTICAS_EXTRA": "exterior, completo con luces",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-024",
+    "SKU": "11932-D",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "tyc",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ranger",
+    "AÑOS_COMPATIBLE": "2012/2015",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-025",
+    "SKU": "12356-11I",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras izquierdo",
+    "MARCA_REPUESTO": "fitam",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Volkswagen",
+    "MODELO_VEHICULO": "saveiro",
+    "AÑOS_COMPATIBLE": "2010/>",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "far-026",
+    "SKU": "7S55-13405-AC (CS55-13404-AA)",
+    "REPUESTO": "Faro",
+    "LADO_REPUESTO": "tras derecho",
+    "MARCA_REPUESTO": "original",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ka",
+    "AÑOS_COMPATIBLE": "2008/2011",
+    "CARACTERISTICAS_EXTRA": "completo con luces",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "cap-001",
+    "SKU": "GN1Z-N1661(GN15-N16612-AA)",
+    "REPUESTO": "Capot",
+    "LADO_REPUESTO": "Delantero",
+    "STOCK": 1,
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "ecosport",
+    "AÑOS_COMPATIBLE": "2017/2022",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "cap-002",
+    "SKU": "FD20170A",
+    "MARCA_REPUESTO": "tong yang",
+    "MARCA_VEHICULO": "Ford",
+    "MODELO_VEHICULO": "focus",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  },
+  {
+    "ID": "cap-003",
+    "SKU": "2N15-N16612(1368555)",
+    "PRICE": 10000,
+    "CARD_IMAGE": "/assets/img/autopartsImages/no-image.png",
+    "IMAGES": [
+      "/assets/img/autopartsImages/no-image.png"
+    ]
+  }
+]
